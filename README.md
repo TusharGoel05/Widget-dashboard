@@ -131,26 +131,4 @@ interface Category {
 }
 \`\`\`
 
-## Customization
 
-### Adding New Categories
-
-Edit `lib/dashboard-data.ts` to add new categories to the `initialDashboardData` array.
-
-### Styling
-
-The application uses Tailwind CSS with custom design tokens defined in `app/globals.css`. Modify the CSS custom properties to change colors, spacing, and other design elements.
-
-### State Management
-
-The Zustand store in `lib/dashboard-store.ts` handles all application state. Widget data persists automatically in localStorage.
-
-## Browser Support
-
-- Chrome/Edge 88+
-- Firefox 85+
-- Safari 14+
-
-## License
-
-This project is created for educational purposes as a frontend trainee assignment.
